@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/{nombre?}', function ($nombre = "Invitado") {
     //return view('welcome');
-    return "Hola ". $nombre;
+    return "Hola Mr. ". $nombre;
 });
